@@ -5,6 +5,7 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Positive;
 
+import in.spring.shoot.BeanValidation.CustomAnnotationForValidation.WorkType;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -21,6 +22,13 @@ public class Timesheet {
 	@NotNull(message = "Hours should not be null")
 	@Positive(message = "Hours should not be negative")
 	private Integer hours;
+	
+	/*
+	 * This shiuld be either CLIENT_PROJECT or IN_HOUSE_PROJECT any other should be treated
+	 * as workType voilation
+	 */
+	@WorkType(message = "Work type should be either CLIENT_PROJECT or IN_HOUSE_PROJECT") // My custom validation annotation
+	private String workType;
 	
 
 }
