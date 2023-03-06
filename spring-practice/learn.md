@@ -4,3 +4,4 @@
 * Bean Validation example deep dive
 * Create custom annotation for validation
 * RestTemplate example deep dive
+* RestTemplateBuilder example deep dive
