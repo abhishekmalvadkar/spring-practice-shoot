@@ -5,3 +5,4 @@
 * Create custom annotation for validation
 * RestTemplate example deep dive
 * RestTemplateBuilder example deep dive
+* ObjectMapper example deep dive
