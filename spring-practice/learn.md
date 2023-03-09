@@ -6,3 +6,4 @@
 * RestTemplate example deep dive
 * RestTemplateBuilder example deep dive
 * ObjectMapper example deep dive
+* JaxBContext example deep dive
