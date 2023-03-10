@@ -7,3 +7,4 @@
 * RestTemplateBuilder example deep dive
 * ObjectMapper example deep dive
 * JaxBContext example deep dive
+* Path varibale validation example deep dive
