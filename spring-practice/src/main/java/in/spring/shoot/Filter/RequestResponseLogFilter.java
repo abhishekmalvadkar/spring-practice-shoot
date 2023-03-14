@@ -26,8 +26,6 @@ public class RequestResponseLogFilter implements Filter {
 		 */
 		log.trace("Request logged here");
 		chain.doFilter(request, response); // Telling that go ahead to call next filter or controller
-											// (if any filter is
-											// not exists)
 		/*
 		 * Below here write code whatever you want to do with response
 		 */

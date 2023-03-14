@@ -26,8 +26,6 @@ public class DoSomethongWithHeaderFilter implements Filter {
 		 */
 		log.trace("Get user id or industry id whataver client set in request header and do something with it");
 		chain.doFilter(request, response); // Telling that go ahead to call next filter or controller
-											// (if any filter is
-											// not exists)
 		/*
 		 * Below here write code whatever you want to do with response
 		 */

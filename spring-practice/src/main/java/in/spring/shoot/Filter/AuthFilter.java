@@ -31,8 +31,6 @@ public class AuthFilter implements Filter {
 		}
 		log.trace("User is authenticated succesfully....");
 		chain.doFilter(request, response); // Telling that go ahead to call next filter or controller
-											// (if any filter is
-											// not exists)
 		
 		
 	}
