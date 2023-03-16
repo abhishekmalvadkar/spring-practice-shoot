@@ -11,3 +11,4 @@
 * Request Param validation example deep dive
 * Filter example deep dive
 * @Async annotation example deep dive
+* Understanding that spring AOP advices methods are sync or async example deep dive
